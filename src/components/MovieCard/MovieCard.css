@@ -1,0 +1,71 @@
+
+
+.movie-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    font-family: 'Aclonica', sans-serif;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .movie-card-img {
+    .movie-card-img {
+      /* width: 50px;
+      height: 50px; */
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  
+  .movie-card-body {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+  
+  .movie-card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .movie-card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .movie-card-button {
+    background-color: #4CAF50;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .movie-card-footer {
+    background: #f8f9fa;
+    border-top: none;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+ 
+
+.movie-status {
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #f1ca2e;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movie-status.nowshowing {
+  background-color: #4caf50;
+}
+
+.movie-status.upcoming {
+  background-color: #2196f3;
+}
